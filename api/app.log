@@ -1,0 +1,67 @@
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:40:59] "OPTIONS /api/predict HTTP/1.1" 200 -
+DEBUG:root:Route has been called
+DEBUG:root:Received data: {'Certificate Course': '', 'Internship': '0', 'Experience': '', 'Communication Engineering': '100', 'Computer Networks': '', 'Software Engineering': '', 'Operating Systems': '', 'Digital Electronics': '', 'Computer Organization and Architecture': '', 'Discrete Structures': '', 'Data Structures': ''}
+DEBUG:root:Prepared data: [['' '0' '' '100' '' '' '' '' '' '' '']]
+ERROR:root:Error during prediction: could not convert string to float: ''
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:41:00] "POST /api/predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:41:30] "OPTIONS /api/predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:41:30] "OPTIONS /api/predict HTTP/1.1" 200 -
+DEBUG:root:Route has been called
+DEBUG:root:Received data: {'Certificate Course': '100', 'Internship': '1', 'Experience': '99', 'Communication Engineering': '100', 'Computer Networks': '100', 'Software Engineering': '100', 'Operating Systems': '99', 'Digital Electronics': '100', 'Computer Organization and Architecture': '100', 'Discrete Structures': '99', 'Data Structures': '100'}
+DEBUG:root:Prepared data: [['100' '1' '99' '100' '100' '100' '99' '100' '100' '99' '100']]
+DEBUG:root:Route has been called
+DEBUG:root:Received data: {'Certificate Course': '100', 'Internship': '1', 'Experience': '99', 'Communication Engineering': '100', 'Computer Networks': '100', 'Software Engineering': '100', 'Operating Systems': '99', 'Digital Electronics': '100', 'Computer Organization and Architecture': '100', 'Discrete Structures': '99', 'Data Structures': '100'}
+DEBUG:root:Prepared data: [['100' '1' '99' '100' '100' '100' '99' '100' '100' '99' '100']]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:41:32] "POST /api/predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:41:32] "POST /api/predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:43:21] "OPTIONS /api/predict HTTP/1.1" 200 -
+DEBUG:root:Route has been called
+DEBUG:root:Received data: {'Certificate Course': '100', 'Internship': '1', 'Experience': '4', 'Communication Engineering': '100', 'Computer Networks': '100', 'Software Engineering': '109', 'Operating Systems': '73', 'Digital Electronics': '83', 'Computer Organization and Architecture': '100', 'Discrete Structures': '77', 'Data Structures': '100'}
+DEBUG:root:Prepared data: [['100' '1' '4' '100' '100' '109' '73' '83' '100' '77' '100']]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:43:22] "POST /api/predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:44:01] "OPTIONS /api/predict HTTP/1.1" 200 -
+DEBUG:root:Route has been called
+DEBUG:root:Received data: {'Certificate Course': '100', 'Internship': '1', 'Experience': '4', 'Communication Engineering': '100', 'Computer Networks': '100', 'Software Engineering': '109', 'Operating Systems': '73', 'Digital Electronics': '83', 'Computer Organization and Architecture': '100', 'Discrete Structures': '77', 'Data Structures': '100'}
+DEBUG:root:Prepared data: [['100' '1' '4' '100' '100' '109' '73' '83' '100' '77' '100']]
+INFO:werkzeug:127.0.0.1 - - [28/Nov/2024 19:44:02] "POST /api/predict HTTP/1.1" 200 -
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 10:51:23] "OPTIONS /api/predict HTTP/1.1" 200 -
+DEBUG:root:Route has been called
+DEBUG:root:Received data: {'Certificate Course': '99', 'Internship': '1', 'Experience': '100', 'Communication Engineering': '100', 'Computer Networks': '100', 'Software Engineering': '100', 'Operating Systems': '100', 'Digital Electronics': '100', 'Computer Organization and Architecture': '100', 'Discrete Structures': '100', 'Data Structures': '100'}
+DEBUG:root:Prepared data: [['99' '1' '100' '100' '100' '100' '100' '100' '100' '100' '100']]
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 10:51:24] "POST /api/predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 10:51:42] "OPTIONS /api/predict HTTP/1.1" 200 -
+DEBUG:root:Route has been called
+DEBUG:root:Received data: {'Certificate Course': '99', 'Internship': '1', 'Experience': '100', 'Communication Engineering': '100', 'Computer Networks': '100', 'Software Engineering': '100', 'Operating Systems': '100', 'Digital Electronics': '100', 'Computer Organization and Architecture': '100', 'Discrete Structures': '100', 'Data Structures': '100'}
+DEBUG:root:Prepared data: [['99' '1' '100' '100' '100' '100' '100' '100' '100' '100' '100']]
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 10:51:42] "POST /api/predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 10:52:50] "OPTIONS /api/predict HTTP/1.1" 200 -
+DEBUG:root:Route has been called
+DEBUG:root:Received data: {'Certificate Course': '99', 'Internship': '1', 'Experience': '100', 'Communication Engineering': '100', 'Computer Networks': '100', 'Software Engineering': '100', 'Operating Systems': '100', 'Digital Electronics': '100', 'Computer Organization and Architecture': '100', 'Discrete Structures': '100', 'Data Structures': '100'}
+DEBUG:root:Prepared data: [['99' '1' '100' '100' '100' '100' '100' '100' '100' '100' '100']]
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 10:52:50] "POST /api/predict HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 10:53:21] "OPTIONS /api/predict HTTP/1.1" 200 -
+DEBUG:root:Route has been called
+DEBUG:root:Received data: {'Certificate Course': '99', 'Internship': '1', 'Experience': '40', 'Communication Engineering': '70', 'Computer Networks': '50', 'Software Engineering': '100', 'Operating Systems': '60', 'Digital Electronics': '100', 'Computer Organization and Architecture': '100', 'Discrete Structures': '100', 'Data Structures': '70'}
+DEBUG:root:Prepared data: [['99' '1' '40' '70' '50' '100' '60' '100' '100' '100' '70']]
+INFO:werkzeug:127.0.0.1 - - [29/Nov/2024 10:53:21] "POST /api/predict HTTP/1.1" 200 -
